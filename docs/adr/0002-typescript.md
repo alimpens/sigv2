@@ -10,7 +10,7 @@ JavaScript is a weakly typed language, which can lead to type errors. We want to
 
 ## Decision
 
-Use typescript for this project.
+Use Typescript for this project.
 
 ## Consequences
 
