@@ -1,4 +1,4 @@
-# Testing coding conventions
+# Testing code conventions
 
 ## Unit tests
 
