@@ -1,0 +1,22 @@
+# Testing
+
+## Status
+
+Proposed
+
+## Context
+
+We want to write maintainable unit tests for our React components.
+We should be able to test functionality without testing implementation details.
+We should be able to write tests in a React-like way.
+The solution should be well-known, so it's easier for new / other developers to understand it.
+
+## Decision
+
+We will use the native Node test runner with React Testing Library for our tests.
+The native Node test runner is faster than Jest,
+and React Testing Library is a light-weight solution for writing tests in a React-like way.
+
+## Consequences
+
+We will be able to write tests fairly quickly, in the same React way as our components.

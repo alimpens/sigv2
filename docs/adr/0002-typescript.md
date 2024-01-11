@@ -6,7 +6,8 @@ Proposed
 
 ## Context
 
-JavaScript is a weakly typed language, which can lead to type errors. We want to prevent this. Typescript is the most popular and robust solution to this problem.
+JavaScript is a weakly typed language, which can lead to type errors. We want to prevent this.
+Typescript is the most popular and robust solution to this problem.
 
 ## Decision
 

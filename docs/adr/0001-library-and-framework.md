@@ -6,7 +6,9 @@ Proposed
 
 ## Context
 
-We need to choose a library and framework for our frontend. It needs to be fast, modern, well maintained and take care of the heavy lifting with regards to routing, data fetching, caching, server side rendering and the like.
+We need to choose a library and framework for our frontend.
+It needs to be fast, modern, well maintained and take care of the heavy lifting with regards to routing,
+data fetching, caching, server side rendering and the like.
 
 The framework needs to be well-known and opinionated, so it's easier for others to grok how it works.
 
@@ -14,7 +16,8 @@ The framework needs to be well-known and opinionated, so it's easier for others 
 
 We will use React with Next js as our frontend framework.
 
-We've chosen React because it is the standard UI library for the City of Amsterdam. This means it will be easier to find developers that can work on the project, which in turn makes it easier to maintain.
+We've chosen React because it is the standard UI library for the City of Amsterdam.
+This means it will be easier to find developers that can work on the project, which in turn makes it easier to maintain.
 
 We considered the following frameworks (recommended by the React team):
 
