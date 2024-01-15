@@ -18,7 +18,7 @@
         "padding-top"
       ]
     ],
-    "selector-class-pattern": "^[A-Za-z0-9_-]+$",
+    "selector-class-pattern": null,
     "unit-disallowed-list": ["px"]
   }
 }
