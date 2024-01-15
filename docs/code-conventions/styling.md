@@ -92,7 +92,7 @@ when the user changes the base font size.
 
 ```css
 .example-card {
-  background: url("image.jpg");
+  background: url('image.jpg');
 }
 ```
 
