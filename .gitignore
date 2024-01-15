@@ -9,6 +9,11 @@ build
 coverage
 dist
 tmp
+next-env.d.ts
+
+# Ignore next.js folders
+.next
+out
 
 # Ignore archives
 *.7z
