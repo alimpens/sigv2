@@ -1,3 +1,18 @@
 {
-  "extends": "next/core-web-vitals"
+  "env": {
+    "browser": true,
+    "es2020": true
+  },
+  "extends": ["next/core-web-vitals", "prettier", "plugin:css-modules/recommended"],
+  "plugins": ["css-modules"],
+  "rules": {
+    "import/order": [
+      "error",
+      {
+        "groups": ["external", "parent", "sibling"],
+        "newlines-between": "always"
+      }
+    ],
+    "css-modules/no-unused-class": "error"
+  }
 }
