@@ -1,3 +1,5 @@
+<!-- @license CC0-1.0 -->
+
 # Library and framework for our frontend
 
 ## Status
