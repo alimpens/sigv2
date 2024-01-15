@@ -26,7 +26,7 @@
 
 .description p {
   background-color: rgb(var(--callout-rgb) 0.5);
-  border: 1px solid rgb(var(--callout-border-rgb) 0.3);
+  border: 1rem solid rgb(var(--callout-border-rgb) 0.3);
   border-radius: var(--border-radius);
   position: relative;
 }
@@ -45,7 +45,7 @@
 
 .card {
   background: rgb(var(--card-rgb) 0);
-  border: 1px solid rgb(var(--card-border-rgb) 0);
+  border: 1rem solid rgb(var(--card-border-rgb) 0);
   border-radius: var(--border-radius);
   transition:
     background 200ms,
@@ -78,21 +78,21 @@
 .center::before {
   background: var(--secondary-glow);
   border-radius: 50%;
-  height: 360px;
-  width: 480px;
+  height: 360rem;
+  width: 480rem;
 }
 
 .center::after {
   background: var(--primary-glow);
-  height: 180px;
-  width: 240px;
+  height: 180rem;
+  width: 240rem;
   z-index: -1;
 }
 
 .center::before,
 .center::after {
   content: "";
-  filter: blur(45px);
+  filter: blur(45rem);
   left: 50%;
   position: absolute;
   transform: translateZ(0);
@@ -106,11 +106,11 @@
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
     background: rgb(var(--card-rgb) 0.1);
-    border: 1px solid rgb(var(--card-border-rgb) 0.15);
+    border: 1rem solid rgb(var(--card-border-rgb) 0.15);
   }
 
   .card:hover span {
-    transform: translateX(4px);
+    transform: translateX(4rem);
   }
 }
 
@@ -121,15 +121,15 @@
 }
 
 /* Mobile */
-@media (width <= 700px) {
+@media (width <= 700rem) {
   .grid {
     grid-template-columns: 1fr;
-    max-width: 320px;
+    max-width: 320rem;
     text-align: center;
   }
 
   .center::before {
-    height: 300px;
+    height: 300rem;
     transform: none;
   }
 
@@ -147,11 +147,11 @@
 
   .description p {
     align-items: center;
-    backdrop-filter: blur(24px);
+    backdrop-filter: blur(24rem);
     background: linear-gradient(to bottom, rgb(var(--background-start-rgb) 1), rgb(var(--callout-rgb) 0.5));
     background-clip: padding-box;
     border: none;
-    border-bottom: 1px solid rgb(var(--callout-border-rgb) 0.25);
+    border-bottom: 1rem solid rgb(var(--callout-border-rgb) 0.25);
     border-radius: 0;
     inset: 0 0 auto;
   }
@@ -159,7 +159,7 @@
   .description div {
     align-items: flex-end;
     background: linear-gradient(to bottom, transparent 0%, rgb(var(--background-end-rgb)) 40%);
-    height: 200px;
+    height: 200rem;
     inset: auto 0 0;
     pointer-events: none;
     z-index: 1;
@@ -167,7 +167,7 @@
 }
 
 /* Tablet and Smaller Desktop */
-@media (width >= 701px) and (width <= 1120px) {
+@media (width >= 701rem) and (width <= 1120rem) {
   .grid {
     grid-template-columns: repeat(2, 50%);
   }
