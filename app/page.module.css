@@ -91,7 +91,7 @@
 
 .center::before,
 .center::after {
-  content: "";
+  content: '';
   filter: blur(45rem);
   left: 50%;
   position: absolute;
