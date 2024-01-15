@@ -9,7 +9,7 @@ Proposed
 We want to write maintainable unit tests for our React components.
 We should be able to test functionality without testing implementation details.
 We should be able to write tests in a React-like way.
-The solution should be well-known, so it's easier for new / other developers to understand it.
+The solution should be well-known, so it’s easier for new / other developers to understand it.
 
 ## Decision
 
