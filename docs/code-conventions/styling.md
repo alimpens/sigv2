@@ -26,24 +26,26 @@ to reuse styles.
 This way, CSS Modules prevents redundant code. For example, this:
 
 ```css
-.button {
+.base {
   /* base button styles */
+}
 
-  .primary {
-    /* extra primary button styles */
-  }
+.primary {
+  composes: base;
+  /* extra primary button styles */
+}
 
-  .secondary {
-    /* extra secondary button styles */
-  }
+.secondary {
+  composes: base;
+  /* extra secondary button styles */
 }
 ```
 
-...generates the following classes, where the first class contains the reused base button styles,
-and the second class the specific secondary button styles:
+...generates the following classes, where the first class contains the specific secondary button styles,
+and the second class contains the reused base button styles:
 
 ```text
-EgL3uq_button EgL3uq_secondary
+Button_secondary__9ex2D Button_base__aIT_t
 ```
 
 ### Don't affect the layout outside your component

@@ -1,0 +1,13 @@
+.base {
+  background-color: green;
+}
+
+.primary {
+  background-color: blue;
+  composes: base;
+}
+
+.secondary {
+  background-color: azure;
+  composes: base;
+}

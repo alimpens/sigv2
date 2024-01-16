@@ -1,9 +1,13 @@
 import Image from 'next/image'
 
+import Button from '../components/Button/Button'
+
 import styles from './page.module.css'
 
 export const Home = () => (
   <main className={styles.main}>
+    <Button variant="primary">Hallo</Button>
+    <Button variant="secondary">Hallo</Button>
     <div className={styles.description}>
       <p>
         Get started by editing&nbsp;
