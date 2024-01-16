@@ -6,3 +6,4 @@
 2. [Typescript](./0002-typescript.md)
 3. [Testing](./0003-testing.md)
 4. [Styling](./0004-styling.md)
+5. [Linting](./0005-linting.md)
