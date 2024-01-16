@@ -5,6 +5,7 @@
   "author": "Gemeente Amsterdam",
   "private": true,
   "license": "EUPL-1.2",
+  "type": "module",
   "engines": {
     "node": "^20",
     "npm": "^10",
@@ -28,7 +29,8 @@
     "lint-fix:md": "markdownlint --fix **/*.md",
     "prepare": "husky install",
     "prettier": "prettier --write .",
-    "start": "next start"
+    "start": "next start",
+    "test": "vitest"
   },
   "dependencies": {
     "next": "14.0.4",
@@ -36,10 +38,12 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@testing-library/react": "14.1.2",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@typescript-eslint/parser": "^6.18.1",
+    "@vitejs/plugin-react": "4.2.1",
     "eslint": "8.56.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^17.1.0",
@@ -50,6 +54,7 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "husky": "8.0.0",
+    "jsdom": "23.2.0",
     "lint-staged": "15.2.0",
     "markdownlint-cli": "0.38.0",
     "npm-run-all": "^4.1.5",
@@ -58,7 +63,8 @@
     "stylelint-config-css-modules": "^4.4.0",
     "stylelint-config-standard": "^36.0.0",
     "stylelint-order": "6.0.4",
-    "typescript": "5.3.3"
+    "typescript": "5.3.3",
+    "vitest": "1.2.0"
   },
   "bugs": {
     "url": "https://github.com/alimpens/sigv2/issues"
