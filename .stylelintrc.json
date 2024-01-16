@@ -3,7 +3,12 @@
   "plugins": ["stylelint-order"],
   "rules": {
     "order/order": ["custom-properties", "declarations"],
-    "order/properties-alphabetical-order": true,
+    "order/properties-order": [
+      ["composes"],
+      {
+        "unspecified": "bottomAlphabetical"
+      }
+    ],
     "property-disallowed-list": [
       [
         "margin",
