@@ -1,11 +1,21 @@
-import { render, screen } from '@testing-library/react'
-import { describe, expect, it } from 'vitest'
+import React, { PropsWithChildren } from 'react'
+import 'global-jsdom/register'
+import { strictEqual } from 'node:assert'
+import { test, describe, before } from 'node:test'
+import { cleanup, render, screen } from '@testing-library/react'
 
-import { Button } from './Button'
+import { Button } from '.'
 
-describe('Button', () => {
-  it('renders', () => {
-    render(<Button variant="primary" />)
-    expect(screen.getByRole('button')).toBeDefined()
+describe('test', () => {
+  before(() => {
+    cleanup()
+  })
+
+  test('renders', () => {
+    render(<Button variant="primary">Sam</Button>)
+
+    const button = screen.getByRole('button')
+
+    strictEqual(button.textContent, 'Sam')
   })
 })

@@ -1,11 +1,10 @@
 import type { PropsWithChildren } from 'react'
 
-import styles from './Button.module.css'
+// import styles from './Button.module.css'
 
 export function Button({ children, variant = 'primary' }: PropsWithChildren<{ variant: 'primary' | 'secondary' }>) {
   return (
-    <button type="button" className={styles[variant]}>
-      {children}
-    </button>
+    // className={styles[variant]}
+    <button type="button">{children}</button>
   )
 }
