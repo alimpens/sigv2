@@ -1,20 +1,22 @@
+<!-- @license CC0-1.0 -->
+
 # What to test
 
-- Run your page through WebAIM's [WAVE Accessibility Evaluation Tool](https://wave.webaim.org/)
-- Run Chrome's Lighthouse on your page
+- Run your page through WebAIM’s [WAVE Accessibility Evaluation Tool](https://wave.webaim.org/)
+- Run Chrome’s Lighthouse on your page
 - Ensure that all videos are captioned and audio described as needed and that audio-only files are transcribed.
-- If you use style sheets, then disable stylesheets to ensure content is in a usable order with style sheets turned off.
-  This is the order that will be presented to screen readers or to a low vision user using an alternate high-contrast stylesheet.
-- Attempt to operate your website with just the keyboard (but not in a screenreader).
-  This test shows how well a mobility impaired user can access your system.
-- View your website with a grayscale filter or color deficient vision simulator to ensure that
+- If you use style sheets, then disable style sheets to ensure content is in a usable order with style sheets turned off.
+  This is the order that will be presented to screen readers.
+- Attempt to operate your website with just the keyboard (but not with a screen reader).
+  This test shows how well a mobility impaired user can access your page.
+- View your page with a grayscale filter or color deficient vision simulator to ensure that
   content is not dependent on color.
 - Make sure that all content is available in a screen reader.
 - Translate your page and check if everything is translated.
 - Translate your page and use a screenreader to check if everything is translated.
-  Some content (like text in `aria-label`) isn't always properly translated.
+  Some content (like text in `aria-label`) isn’t always properly translated.
 - Translate your page to a right-to-left language (like Arabic) and check if
-  everything is still properly rendered and the content is flipped.
+  everything is still properly rendered and the content is flipped (a menu bar on the left should be on the right, etc.).
 - Browsers can display text bigger than usual. Set your browser to the biggest text size,
   and check if this has an effect on your page, and that everything is still properly rendered.
 - Zoom in 200% and check if everything is still properly rendered.
@@ -38,6 +40,6 @@ p {
 
 ## References
 
-- [PennState University's Testing Protocol](https://accessibility.psu.edu/testing/protocol/)
+- [PennState University’s Testing Protocol](https://accessibility.psu.edu/testing/protocol/)
 - [We should all be ashamed of the Web: WebAIM’s 2023 Accessibility report](https://uxdesign.cc/we-should-all-be-ashamed-of-the-web-webaims-2023-accessibility-report-5233c8583dd9)
-- [https://uxdesign.cc/developers-stop-the-embarrassment-5c75de8f4c06](https://uxdesign.cc/developers-stop-the-embarrassment-5c75de8f4c06)
+- [Developers, stop the embarrassment](https://uxdesign.cc/developers-stop-the-embarrassment-5c75de8f4c06)
