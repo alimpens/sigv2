@@ -15,8 +15,8 @@ The solution should be well-known, so it’s easier for new / other developers t
 
 ## Decision
 
-We will use the native Node test runner with React Testing Library for our tests.
-The native Node test runner is faster than Jest,
+We will use Vitest with React Testing Library for our tests.
+Vitest is faster and easier to setup than Jest,
 and React Testing Library is a light-weight solution for writing tests in a React-like way.
 
 ## Consequences
