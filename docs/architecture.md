@@ -13,18 +13,23 @@ graph TD
         - KTO user feedback
     "]
     PFE -->|Signal| BE
-    BE <-->|Form config| BFE["
+    BE -->|Form config| BFE["
         Backoffice Frontend
 
         - Maken en afhandelen melding
-        - Form builder
-        - CMS 'texts public FE & mails'
         - Dashboard
     "]
+    BE -->|CMS config| PFE
     BE <-->|Signal status| BFE
-    BE <-->|CMS config| BFE
+    BE <-->|CMS config| Admin["
+        Admin
+
+        - Form builder
+        - CMS texts public FE & mails
+    "]
+    BE <-->|Form config| Admin
     PFE <-.-> BOB
-    BFE <-.-> FB["Functioneel beheer"]
     BFE <-.-> AMBT["Ambtenaar"]
     BFE <-.-> EXT["Extern"]
+    Admin <-.-> FB["Functioneel beheer"]
 ```
