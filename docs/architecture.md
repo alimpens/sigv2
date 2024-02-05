@@ -21,15 +21,15 @@ graph TD
     "]
     BE -->|CMS config| PFE
     BE <-->|Signal status| BFE
-    BE <-->|CMS config| Admin["
-        Admin
+    BE <-->|CMS config| AFE["
+        Admin Frontend
 
         - Form builder
         - CMS texts public FE & mails
     "]
-    BE <-->|Form config| Admin
+    BE <-->|Form config| AFE
     PFE <-.-> BOB
     BFE <-.-> AMBT["Ambtenaar"]
     BFE <-.-> EXT["Extern"]
-    Admin <-.-> FB["Functioneel beheer"]
+    AFE <-.-> FB["Functioneel beheer"]
 ```
