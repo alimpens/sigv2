@@ -38,6 +38,7 @@ p {
 }
 ```
 
+- Open a Print Preview of your page (CTRL + P on Windows) and check if it looks how you want it to.
 - Optional: turn off JavaScript and check if your page still works.
 
 ## References
