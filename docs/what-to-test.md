@@ -22,7 +22,8 @@
 - Browsers can display text bigger than usual. Set your browser to the biggest text size,
   and check if this has an effect on your page, and that everything is still properly rendered.
 - Zoom in 200% and check if everything is still properly rendered.
-- Use High Contrast mode (a seperate plugin for Chrome) and check if everything is still properly rendered.
+- Check if everything is properly rendered in High Contrast mode. This is built into the Windows OS,
+  otherwise you can use the Chrome DevTools option 'Emulate CSS media feature forced-colors' in the Rendering tab.
 - Apply the following css snippet and check if everything is still properly rendered ([WCAG 1.4.12](https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html)).
   In Chrome you can use the Stylus plugin to easily do this.
 
