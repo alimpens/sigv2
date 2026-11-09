@@ -64,7 +64,7 @@
     "stylelint-config-standard": "^36.0.0",
     "stylelint-order": "6.0.4",
     "typescript": "5.3.3",
-    "vitest": "1.2.0"
+    "vitest": "5.1.0"
   },
   "bugs": {
     "url": "https://github.com/alimpens/sigv2/issues"
